@@ -1,0 +1,86 @@
+html{
+    box-sizing: border-box;
+}
+.navbar .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+
+}
+.navbar .nav-item.active{
+  border-left: 3px solid #444;
+}
+.carousel-item{
+    height: 450px;
+}
+.carousel-img-1{
+    background-image: url(../images/image1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.carousel-img-2{
+    background-image: url(../images/image2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-img-3{
+    background-image: url(../images/image3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#home-heading{
+    position: relative;
+    background-image: url(../images/lights.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    min-height: 200px;
+    text-align: center;
+}
+.dark-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+#video-play{
+    position: relative;
+    background-image: url(../images/media.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    text-align: center;
+    color: #fff;;
+}
+#main-footer{
+    background-color: #000;
+    color: #fff;
+}
+
+/* About page */
+#page-heading{
+    background-image: url(../images/image1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 200px;
+    color: #fff;
+    padding:2rem 0;
+    height: 100%;
+}
+.about-img{
+    margin-top: -5rem;
+}
+#faq-section .card-header{
+    background-color: #777;
+}
+#faq-section .card-body{
+    background-color: #333;
+}
